@@ -1,5 +1,5 @@
-$ git config --global user.name "Your Name"
-$ git config --global user.email "email@example.com"
+$ git config --global user.name "Your Name"                                工作区、暂存区、版本区
+$ git config --global user.email "email@example.com"			   跟踪修改
 
 $ mkdir learngit
 $ cd learngit
@@ -22,3 +22,8 @@ $ HEAD~100    上100
 
 $ git reset --hard HEAD^
 $ git reset --hard 1094a
+
+$ git diff HEAD -- readme.txt   查看工作区和版本库里面最新版本的区别
+
+$ git checkout -- readme.txt   丢弃工作区的修改，回到最近一次git commit或git add时的状态。
+$ git reset HEAD <file>可以把暂存区的修改撤销掉（unstage），重新放回工作区
