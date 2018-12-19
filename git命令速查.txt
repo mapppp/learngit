@@ -1,0 +1,24 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+$ mkdir learngit
+$ cd learngit
+
+$ pwd
+
+$ git init
+
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+
+$ git status  让我们时刻掌握仓库当前的状态
+$ git diff readme.txt 
+$ git log   历史记录  --pretty=oneline
+$ git reflog   记录每一次命令
+
+$ HEAD^   上一个版本
+$ HEAD^^   上上一个版本
+$ HEAD~100    上100
+
+$ git reset --hard HEAD^
+$ git reset --hard 1094a
