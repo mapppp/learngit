@@ -35,3 +35,5 @@ $ ssh-keygen -t rsa -C "youremail@example.com"                       创建SSH Key
 $ git remote add <origin> git@github.com:<账户名path>/learngit.git   关联远程库
 $ git push -u origin master    				             第一次推送
 $ git push origin master				             之后推送
+--------------------------------------------------------------------------------从远程库克隆
+
