@@ -16,7 +16,7 @@ $ git commit -m "wrote a readme file"
 $ git status                    让我们时刻掌握仓库当前的状态
 $ git diff readme.txt 
 $ git log                       历史记录  --pretty=oneline
-$ q 				退出git log
+$ q 				            退出git log
 $ git reflog                    每一次命令
 $ git diff HEAD -- readme.txt   查看工作区和版本库里面最新版本的区别
 --------------------------------------------------------------------------------版本回退
@@ -34,7 +34,10 @@ $ git rm test.txt
 --------------------------------------------------------------------------------远程仓库
 $ ssh-keygen -t rsa -C "youremail@example.com"                       创建SSH Key
 $ git remote add <origin> git@github.com:<账户名path>/learngit.git   关联远程库
-$ git push -u origin master    				             第一次推送
-$ git push origin master				             之后推送
+$ git push -u origin master    				                         第一次推送
+$ git push origin master				                             之后推送
+$ git pull --rebase origin master                                    github上有一个README.md 文件没有下载下来，push失败
 --------------------------------------------------------------------------------从远程库克隆
 $ git clone git@github.com:michaelliao/gitskills.git
+
+
